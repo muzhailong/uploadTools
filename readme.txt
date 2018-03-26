@@ -1,4 +1,8 @@
 工程介绍：
+
+	下载地址：
+		https://pan.baidu.com/s/1egIHoOcfZqbn2yorZo2uNg 密码：dzon
+	
 	config.proprities:配置文件
 			
 			homeUrl=http://s405ftp.jios.org:9001/indexcs/simple.jsp?loginErr=0
