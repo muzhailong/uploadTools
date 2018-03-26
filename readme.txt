@@ -1,16 +1,25 @@
 工程介绍：
 	config.proprities:配置文件
-			网站的地址不用修改
+			
 			homeUrl=http://s405ftp.jios.org:9001/indexcs/simple.jsp?loginErr=0
+			网站的地址不用修改
 			
-			上传的地址，默认是java的上传地址
+			
+			
 			uploadUrl=http://s405ftp.jios.org:9001/assignment/projectList.jsp?proNum=1&assignID=13
+			上传的地址，默认是java的上传地址（可根据自己的需求进行修改）
 			
-			学生的密码，根据自己设置的修改
+			
+			
 			pwd=123456
+			学生的密码，根据自己设置的修改
 			
-			存放学生的源码文件的地方，注意：文件必须是压缩包的形式，压缩包的名称为学生的用户名如：17056.zip或者U201517056.zip都可以
+			
+			
 			dataDir=D:\\documents\\data
+			存放学生的源码文件的地方，注意：文件必须是压缩包的形式，压缩包的名称为学生的用户名如：17056.zip或者U201517056.zip都可以
+			
+	
 	
 	StartUp:读入需要进行上传的所有文件的路径并且执行操作
 	
