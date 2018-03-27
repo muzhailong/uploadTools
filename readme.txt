@@ -1,7 +1,7 @@
 工程介绍：
 
 	下载地址：
-		https://pan.baidu.com/s/1egIHoOcfZqbn2yorZo2uNg 密码：dzon
+		https://pan.baidu.com/s/1_mnGjtyoqEZl30pWWeDxRQ 密码：qbod
 	
 	config.proprities:配置文件
 			
@@ -32,11 +32,11 @@
 	Upload：核心功能
 			主要的思路是：通过"homeUrl"进行登录，拿到cookie，然后进入"uploadUrl" 设置表单中上传文件控件的value为文件的路径，点击提交上传
 
-	do.txt:上传成功的文件
-	undo.txt:上传发生异常的文件
+	do.txt:记录上传成功的文件
+	err.txt:记录上传发生异常的文件
 			
 不足：
 	当用户名出现异常时会中断操作、性能不足
 
 改进的地方：
-	增加容错性、使用多线程提升性能、能够多次启动（发生异常程序会停止，可以自undo中记录异常的文件，然后再次启动程序）
+	增加容错性、使用多线程提升性能、能够多次启动（发生异常程序会停止）

@@ -3,8 +3,11 @@ package com;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Scanner;
+
 import com.core.Env;
 import com.core.Upload;
+import com.log.Log;
 
 public class StartUp {
 	public static void start() {
@@ -26,5 +29,7 @@ public class StartUp {
 
 	public static void main(String[] args) {
 		start();
+		Log.all();
+		new Scanner(System.in).nextLine();
 	}
 }

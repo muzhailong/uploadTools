@@ -65,6 +65,9 @@ public class Env {
 		client.waitForBackgroundJavaScript(1000*3);
 	}
 	
+	public void clearCookie() {
+		client.getCookieManager().clearCookies();
+	}
 	public void waitJS(int t) {
 		client.waitForBackgroundJavaScript(t);
 	}
